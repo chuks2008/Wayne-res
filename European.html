@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>European Dishes - Çhuks wayne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('jollof.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff7e5f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc70;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.87);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2c3e50;
+    }
+
+    .dishes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .dish {
+      width: 280px;
+      background-color: #fff8f0;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .dish:hover {
+      transform: scale(1.05);
+    }
+
+    .dish img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .dish-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #e17055;
+    }
+
+    .price {
+      color: #2d3436;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffe5b4;
+      padding: 15px;
+      color: #6d4c41;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Çhuks wayne's resturant</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="local.html">Local</a>
+    <a href="european.html">European</a>
+    <a href="chinese.html">Chinese</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </nav>
+  <div class="content">
+    <h2>European Cuisine 🇪🇺</h2>
+
+    <div class="dishes">
+      <div class="dish">
+        <img src="classic.jpg" alt="Lasagna">
+        <div class="dish-name">Classic Italian Lasagna</div>
+        <div class="price">₦4,000</div>
+      </div>
+
+      <div class="dish">
+        <img src="french.jpg" alt="French Crepes">
+        <div class="dish-name">French Crêpes with Fruit</div>
+        <div class="price">₦3,200</div>
+      </div>
+
+      <div class="dish">
+        <img src="Spag.jpg" alt="Carbonara">
+        <div class="dish-name">Spaghetti Carbonara</div>
+        <div class="price">₦3,800</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Çhuks wayne. All rights reserved.
+  </footer>
+
+</body>
+</html>
